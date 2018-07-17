@@ -82,7 +82,7 @@
 
 		<ul class="home-social-list">
 			<li class="animate-intro">
-				<a href="https://www.facebook.com" target="_blank">
+				<a href="https://www.facebook.com/itswarmllc" target="_blank">
 					<i class="fa fa-facebook-square"></i>
 				</a>
 			</li>
@@ -97,7 +97,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="https://www.linkedin.com" target="_blank">
+				<a href="https://www.linkedin.com/company/it-swarm-llc/" target="_blank">
 					<i class="fa fa-linkedin"></i>
 				</a>
 			</li>
@@ -555,7 +555,7 @@
 
 					<ul class="list-links">
 						<li>
-							<a href="https://www.facebook.com" target="_blank">Facebook</a>
+							<a href="https://www.facebook.com/itswarmllc" target="_blank">Facebook</a>
 						</li>
 						<li>
 							<a href="https://www.twitter.com" target="_blank">Twitter</a>
@@ -564,7 +564,7 @@
 							<a href="https://www.instagram.com" target="_blank">Instagram</a>
 						</li>
 						<li>
-							<a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+							<a href="https://www.linkedin.com/company/it-swarm-llc/" target="_blank">LinkedIn</a>
 						</li>
 					</ul>
 					<h4 class="h05">Subscribe</h4>
