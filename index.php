@@ -61,7 +61,7 @@
 
 						<h3 class="animate-intro">We Are IT SWARM.</h3>
 						<h1 class="animate-intro">
-							We share our 
+							We share our
 							<br> experience to help others
 						</h1>
 
@@ -133,9 +133,9 @@
 				<div class="intro">
 					<h3 class="animate-this">About Us</h3>
 					<p class="lead animate-this">
-						<span>IT SWARM</span> After 5 years in the IT industry, we decided to alter direction. Now, we share our experience to
-						help others. Our ramp up process is designed to empower your technical team and outfit them with the tools they need
-						to succeed. Ask us about:</p>
+						<span>IT SWARM</span> After 5 years in the IT industry, we decided to alter direction. Now, we share our experience to help
+						others. Our ramp up process is designed to empower your technical team and outfit them with the tools they need to
+						succeed. Ask us about:</p>
 				</div>
 
 			</div>
@@ -511,32 +511,32 @@
 
 					<h4 class="h05">IT SWARM.</h4>
 
-					<table style="border-spacing: 0px; text-align: left; display: inline-table;color: #fff">
-						<tr style="cursor: auto;">
+					<table style="border-spacing: 0px; text-align: left; display: inline-table;">
+						<tr id="dayMon" style="cursor: auto;">
 							<td style="padding-right: 20px;">Mon</td>
 							<td>9:00 am – 5:00 pm</td>
 						</tr>
-						<tr style="cursor: auto;">
+						<tr id="dayTue" style="cursor: auto;">
 							<td style="padding-right: 20px;">Tue</td>
 							<td>9:00 am – 5:00 pm</td>
 						</tr>
-						<tr style="cursor: auto;">
+						<tr id="dayWed" style="cursor: auto;">
 							<td style="padding-right: 20px;">Wed</td>
 							<td>9:00 am – 5:00 pm</td>
 						</tr>
-						<tr style="cursor: auto;">
+						<tr id="dayThu" style="cursor: auto;">
 							<td style="padding-right: 20px;">Thu</td>
 							<td>9:00 am – 5:00 pm</td>
 						</tr>
-						<tr style="cursor: auto;">
+						<tr id="dayFri" style="cursor: auto;">
 							<td style="padding-right: 20px;">Fri</td>
 							<td>9:00 am – 5:00 pm</td>
 						</tr>
-						<tr style="cursor: auto;">
+						<tr id="daySat" style="cursor: auto;">
 							<td style="padding-right: 20px;">Sat</td>
 							<td>Closed</td>
 						</tr>
-						<tr style="cursor: auto;">
+						<tr id="daySun" style="cursor: auto;">
 							<td style="padding-right: 20px;">Sun</td>
 							<td>Closed</td>
 						</tr>
@@ -621,7 +621,35 @@
 	<script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
-
+	<script type="text/javascript">
+		$(document).ready(function () {
+			var allDate = new Date();
+			var day = allDate.getDay();
+			switch (day) {
+				case 0:
+					$("#daySun").css('color', '#fff');
+					break;
+				case 1:
+					$("#dayMon").css('color', '#fff');
+					break;
+				case 2:
+					$("#dayTue").css('color', '#fff');
+					break;
+				case 3:
+					$("#dayWed").css('color', '#fff');
+					break;
+				case 4:
+					$("#dayThu").css('color', '#fff');
+					break;
+				case 5:
+					$("#dayFri").css('color', '#fff');
+					break;
+				case 6:
+					$("#daySat").css('color', '#fff');
+					break;
+			}
+		})
+	</script>
 </body>
 
 </html>
